@@ -1,0 +1,15 @@
+typst:
+  type: Web
+  title: typst Documentation
+  author: The typst Authors
+  url: https://typst.app/docs
+primes:
+  type: Web
+  title: Prime Number
+  author: Weisstein, Eric W
+  url: https://mathworld.wolfram.com/PrimeNumber.html
+emirps:
+  type: Web
+  title: Emirp
+  author: Weisstein, Eric W
+  url: https://mathworld.wolfram.com/Emirp.html

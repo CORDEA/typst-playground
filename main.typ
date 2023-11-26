@@ -15,7 +15,7 @@
 
 == Typst
 
-Typst is a new markup-based typesetting system for the sciences. Typst embeds a scripting language, so we can write documents with code #emoji.hands.raised
+Typst is a new markup-based typesetting system for the sciences. @typst Typst embeds a scripting language, so we can write documents with code #emoji.hands.raised
 
 ```
 let hello() = {
@@ -118,5 +118,10 @@ For example, the emirp numbers from 1 to 100 are as follows.
   #pad(y: 8pt, "Happy coding!")
 ]
 
+#lorem(50)
 
-#lorem(130)
+#bibliography(
+  "hayagriva.yml",
+  full: true,
+  title: [== References],
+)
