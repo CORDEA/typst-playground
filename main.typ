@@ -101,3 +101,9 @@ For example, the emirp numbers from 1 to 100 are as follows.
 #let emirps = emirps()
 
 #emirps
+
+== Conclusion
+
+Happy coding!
+
+#lorem(160)
