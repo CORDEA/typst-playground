@@ -70,3 +70,34 @@ For example, the prime numbers from 1 to 100 are as follows.
 
 #assert.eq(primes.len(), 25)
 #primes
+
+== Emirps
+
+The definition of a emirp number is as follows.
+
+- It becomes another prime number when its digits are reversed.
+
+For example, the emirp numbers from 1 to 100 are as follows.
+
+#let emirps() = {
+  let r = ()
+  for i in range(10, 100) {
+    if prime(i) {
+      let reversed = ""
+      let s = str(i)
+      for j in range(s.len() - 1, -1, step: -1) {
+        reversed += str(s.at(j))
+      }
+      if s == reversed {
+        continue
+      }
+      if prime(int(reversed)) {
+        r.push(i)
+      }
+    }
+  }
+  return r
+}
+#let emirps = emirps()
+
+#emirps
