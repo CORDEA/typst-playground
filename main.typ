@@ -25,6 +25,14 @@ let hello() = {
 #hello()
 ```
 
+#block(
+  width: 100%,
+  fill: luma(240),
+  inset: 8pt,
+  radius: 8pt,
+  align(center)[Hello World!]
+)
+
 == Primes
 
 The definition of a prime number is as follows.
@@ -71,6 +79,8 @@ For example, the prime numbers from 1 to 100 are as follows.
 #assert.eq(primes.len(), 25)
 #primes
 
+#colbreak()
+
 == Emirps
 
 The definition of a emirp number is as follows.
@@ -104,6 +114,9 @@ For example, the emirp numbers from 1 to 100 are as follows.
 
 == Conclusion
 
-Happy coding!
+#rotate(5deg)[
+  #pad(y: 8pt, "Happy coding!")
+]
 
-#lorem(160)
+
+#lorem(130)
